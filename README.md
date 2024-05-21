@@ -29,8 +29,8 @@ Users should be able to:
 ### Screenshot
 
 ![fullpage design screenshot](./screenshots/screenshotDesktop.png)
-![mobile design screenshot](./screenshots/screenshotMobile.png)
 ![submit form screenshot](./screenshots/formSubmit.png)
+![mobile design screenshot](./screenshots/screenshotMobile.png)
 
 
 ### Links
