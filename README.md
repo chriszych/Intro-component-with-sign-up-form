@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshots/screenshotDesktop.png]
-![./screenshots/screenshotMobile.png]
-![./screenshots/formSubmit.png]
+![fullpage design screenshot](./screenshots/screenshotDesktop.png)
+![mobile design screenshot](./screenshots/screenshotMobile.png)
+![submit form screenshot](./screenshots/formSubmit.png)
 
 
 ### Links
