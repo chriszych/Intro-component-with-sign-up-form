@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <article class = "leftPanel">
+      <h1>Learn to code by watching others</h1>
+      <p>  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </article >
+
+    <article class="rightPanel">
+      <div class="advert">
+        <span>Try it free 7 days</span>&nbsp;then $20/mo. thereafter
+      </div>
+
+      <div class="form">
+
+        <label for="firstName"><input type="text" class="formField" id="firstName" placeholder="First Name" onfocus="this.placeholder=''" onblur="this.placeholder='First Name'"><span class="formError"></span></label>
+        <label for="lastName"><input type="text" class="formField" id="lastName" placeholder="Last Name" onfocus="this.placeholder=''" onblur="this.placeholder='Last Name'"><span class="formError"></span></label>
+        <label for="emailAddress"><input type="email" class="formField" id="emailAddress" placeholder="Email Address" onfocus="this.placeholder=''" onblur="this.placeholder='Email Address'"><span class="formError"></span></label>
+        <label for="password"><input type="password" class="formField" id="password" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'"><span class="formError"></span></label>
+        
+        <button class="claimTrial">Claim your free trial</button>
+
+        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+     
+    </article> 
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kriss</a>.
+    </p>
+  </footer>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

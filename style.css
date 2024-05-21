@@ -1,0 +1,188 @@
+body {
+    background-image: url(/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    display: block;
+    max-width: 1080px;
+    margin : auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.leftPanel {
+    width: 540px;
+    align-self: center;
+}
+
+.leftPanel h1 {
+    font-size: 3em;
+}
+
+.rightPanel {
+    width: 540px;
+}
+
+.rightPanel p {
+    font-size: 12px;
+}
+.advert {
+    background-color: hsl(248, 32%, 49%);
+    width: 540px;
+    height: 60px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+    box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+}
+.advert span{
+    font-weight: 600;
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    border-radius: 10px;
+    min-height: 385px;
+    padding: 45px 0;
+    -webkit-box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+    -moz-box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+    box-shadow: 0px 7px 0px 0px rgba(66, 68, 90, 0.25);
+}
+
+.form p {
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    color: hsl(246, 25%, 77%);
+}
+.form p span {
+    color: hsl(0, 100%, 74%);
+}
+
+.formField{
+    width: 376px;
+    height: 49px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 5px;
+    color: hsl(249, 10%, 56%);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: start;
+    border-color: hsl(246, 25%, 87%);
+    border-style: solid;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.formWrongContent {
+    border-color: hsl(0, 100%, 74%);
+    background: url("/images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    color:  hsl(0, 100%, 74%);
+}
+
+.formError {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    margin: 0 40px;
+    display: block;
+    text-align: right;
+}
+
+.claimTrial {
+    width: 460px;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: white;
+    height: 55px;
+    text-transform: uppercase;
+    display: block;
+    margin : 0 auto;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.claimTrial:hover{
+    cursor: pointer;
+    background-color: hsl(154, 59%, 71%)
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+@media (max-width: 575px) {
+
+    .main {
+        margin-top: 75px;
+    }
+
+    .leftPanel {
+        width: 326px;
+        text-align: center;
+    }
+    
+    .leftPanel h1 {
+        font-size: 2em;
+    }
+    
+    .rightPanel {
+        width: 326px;
+    } 
+
+    .advert {
+        width: 176px;
+        height: 87px;
+        display: block;
+        text-align: center;
+        align-content: center;
+        padding: 0 75px;
+        margin-top: 40px;
+
+    }
+
+    .form {
+        min-height: 392px;
+        padding: 25px 0;
+    }
+
+    .form p {
+        margin: 0 50px;
+        font-size: 10px;
+    }
+
+    .formField{
+        width: 244px;
+        padding-left: 15px;
+    }
+
+    .claimTrial {
+        width: 280px;
+    }
+
+}
+
+
